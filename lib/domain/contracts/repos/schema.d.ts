@@ -1,51 +1,51 @@
-export type TCodUfIbge = "11" | "12" | "13" | "14" | "15" | "16" | "17" | "21" | "22" | "23" | "24" | "25" | "26" | "27" | "28" | "29" | "31" | "32" | "33" | "35" | "41" | "42" | "43" | "50" | "51" | "52" | "53";
-export type TUfEmi = "AC" | "AL" | "AM" | "AP" | "BA" | "CE" | "DF" | "ES" | "GO" | "MA" | "MG" | "MS" | "MT" | "PA" | "PB" | "PE" | "PI" | "PR" | "RJ" | "RN" | "RO" | "RR" | "RS" | "SC" | "SE" | "SP" | "TO" | "EX";
-export type TAmb = "1" | "2";
-export type Tmod = "55" | "65";
-type TNFeModBC = "0" | "1" | "2" | "3";
-type TNFeModBCST = "0" | "1" | "2" | "3" | "4" | "5";
-type TConsStatServXServ = "STATUS";
-type TEnviNFeIndSinc = "0" | "1";
-type TNFeInfNFeIdeIndIntermed = "0" | "1" | "2" | "3" | "4" | "9";
-type TNFeInfNFeDetImpostoICMSICMS20CST = "20";
-type ItemChoiceType7 = "CNPJ" | "CPF";
-type TNFeInfNFeDetImpostoISSQNIndISS = "1" | "2" | "3" | "4" | "5" | "6" | "7";
-type TCListServ = "01.01" | "01.02" | "01.03" | "01.04" | "01.05" | "01.06" | "01.07" | "01.08" | "01.09" | "02.01" | "03.02" | "03.03" | "03.04" | "03.05" | "04.01" | "04.02" | "04.03" | "04.04" | "04.05" | "04.06" | "04.07" | "04.08" | "04.09" | "04.10" | "04.11" | "04.12" | "04.13" | "04.14" | "04.15" | "04.16" | "04.17" | "04.18" | "04.19" | "04.20" | "04.21" | "04.22" | "04.23" | "05.01" | "05.02" | "05.03" | "05.04" | "05.05" | "05.06" | "05.07" | "05.08" | "05.09" | "06.01" | "06.02" | "06.03" | "06.04" | "06.05" | "06.06" | "07.01" | "07.02" | "07.03" | "07.04" | "07.05" | "07.06" | "07.07" | "07.08" | "07.09" | "07.10" | "07.11" | "07.12" | "07.13" | "07.16" | "07.17" | "07.18" | "07.19" | "07.20" | "07.21" | "07.22" | "08.01" | "08.02" | "09.01" | "09.02" | "09.03" | "10.01" | "10.02" | "10.03" | "10.04" | "10.05" | "10.06" | "10.07" | "10.08" | "10.09" | "10.10" | "11.01" | "11.02" | "11.03" | "11.04" | "12.01" | "12.02" | "12.03" | "12.04" | "12.05" | "12.06" | "12.07" | "12.08" | "12.09" | "12.10" | "12.11" | "12.12" | "12.13" | "12.14" | "12.15" | "12.16" | "12.17" | "13.02" | "13.03" | "13.04" | "13.05" | "14.01" | "14.02" | "14.03" | "14.04" | "14.05" | "14.06" | "14.07" | "14.08" | "14.09" | "14.10" | "14.11" | "14.12" | "14.13" | "14.14" | "15.01" | "15.02" | "15.03" | "15.04" | "15.05" | "15.06" | "15.07" | "15.08" | "15.09" | "15.10" | "15.11" | "15.12" | "15.13" | "15.14" | "15.15" | "15.16" | "15.17" | "15.18" | "16.01" | "16.02" | "17.01" | "17.02" | "17.03" | "17.04" | "17.05" | "17.06" | "17.08" | "17.09" | "17.10" | "17.11" | "17.12" | "17.13" | "17.14" | "17.15" | "17.16" | "17.17" | "17.18" | "17.19" | "17.20" | "17.21" | "17.22" | "17.23" | "17.24" | "17.25" | "18.01" | "19.01" | "20.01" | "20.02" | "20.03" | "21.01" | "22.01" | "23.01" | "24.01" | "25.01" | "25.02" | "25.03" | "25.04" | "25.05" | "26.01" | "27.01" | "28.01" | "29.01" | "30.01" | "31.01" | "32.01" | "33.01" | "34.01" | "35.01" | "36.01" | "37.01" | "38.01" | "39.01" | "40.01";
-type TNFeInfNFeDetImpostoISSQNIndIncentivo = "1" | "2";
-type TIpiIPITribCST = "00" | "49" | "50" | "99";
-type Torig = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8";
-type TNFeInfNFeDetImpostoICMSICMSSN500CSOSN = "500";
-type TNFeInfNFeDetImpostoICMSICMSSN202CSOSN = "202" | "203";
-type TNFeInfNFeDetImpostoICMSICMSSN201CSOSN = "201";
-type TNFeInfNFeDetImpostoICMSICMS90CST = "90";
-type TNFeInfNFeMotDesICMS = "3" | "9" | "12";
-type TNFeInfNFeDetImpostoICMSICMS70CST = "70";
-type TNFeInfNFeDetImpostoICMSICMS60CST = "60";
-type TNFeInfNFeDetImpostoICMSICMS61CST = "61";
-type TNFeInfNFeDetImpostoICMSICMS51CST = "51";
-type TNFeInfNFeDetImpostoICMSICMSSTCST = "41" | "60";
-type TNFeInfNFeDetImpostoICMSICMS40CST = "40" | "41" | "50";
-type TNFeInfNFeDetImpostoICMSICMS40MotDesICMS = "1" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "11" | "16" | "90";
-type TNFeInfNFeDetImpostoICMSICMS30CST = "30";
-type TNFeInfNFeDetImpostoICMSICMS30MotDesICMS = "6" | "7" | "9";
-type TNFeInfNFeDetImpostoICMSICMSPartCST = "10" | "90";
-type TNFeInfNFeDetImpostoICMSICMS10CST = "10";
-type TNFeInfNFeDetImpostoICMSICMS00CST = "00";
-type TNFeInfNFeDetProdIndEscala = "S" | "N";
-type TNFeInfNFeDetProdDITpViaTransp = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10" | "11" | "12";
-type TNFeInfNFeDetProdDITpIntermedio = "1" | "2" | "3";
-type TEnderEmiCPais = "1058";
-type TEnderEmiXPais = "Brasil" | "BRASIL";
-type TNFeInfNFeEmitCRT = "1" | "2" | "3" | "4";
-type ItemsChoiceType5 = "balsa" | "reboque" | "vagao" | "veicTransp";
-type TNFeInfNFePagDetPagCardTpIntegra = "1" | "2";
-type TNFeInfNFePagDetPagCardTBand = "01" | "02" | "03" | "04" | "05" | "06" | "07" | "08" | "09" | "99";
-type TNFeInfNFeInfAdicProcRefIndProc = "0" | "1" | "2" | "3" | "9";
-type TNFeInfNFeIdeNFrefRefNFPMod = "01" | "04";
-type TNFeInfNFeIdeNFrefRefNFMod = "01" | "02";
-type TNFeInfNFeIdeNFrefRefECFMod = "2B" | "2C" | "2D";
-type TNFeInfNFeTotalISSQNtotCRegTrib = "1" | "2" | "3" | "4" | "5" | "6";
-type TNFeDoc = "CNPJ" | "CPF";
+export type TCodUfIbge = '11' | '12' | '13' | '14' | '15' | '16' | '17' | '21' | '22' | '23' | '24' | '25' | '26' | '27' | '28' | '29' | '31' | '32' | '33' | '35' | '41' | '42' | '43' | '50' | '51' | '52' | '53';
+export type TUfEmi = 'AC' | 'AL' | 'AM' | 'AP' | 'BA' | 'CE' | 'DF' | 'ES' | 'GO' | 'MA' | 'MG' | 'MS' | 'MT' | 'PA' | 'PB' | 'PE' | 'PI' | 'PR' | 'RJ' | 'RN' | 'RO' | 'RR' | 'RS' | 'SC' | 'SE' | 'SP' | 'TO' | 'EX';
+export type TAmb = '1' | '2';
+export type Tmod = '55' | '65';
+type TNFeModBC = '0' | '1' | '2' | '3';
+type TNFeModBCST = '0' | '1' | '2' | '3' | '4' | '5';
+type TConsStatServXServ = 'STATUS';
+type TEnviNFeIndSinc = '0' | '1';
+type TNFeInfNFeIdeIndIntermed = '0' | '1' | '2' | '3' | '4' | '9';
+type TNFeInfNFeDetImpostoICMSICMS20CST = '20';
+type ItemChoiceType7 = 'CNPJ' | 'CPF';
+type TNFeInfNFeDetImpostoISSQNIndISS = '1' | '2' | '3' | '4' | '5' | '6' | '7';
+type TCListServ = '01.01' | '01.02' | '01.03' | '01.04' | '01.05' | '01.06' | '01.07' | '01.08' | '01.09' | '02.01' | '03.02' | '03.03' | '03.04' | '03.05' | '04.01' | '04.02' | '04.03' | '04.04' | '04.05' | '04.06' | '04.07' | '04.08' | '04.09' | '04.10' | '04.11' | '04.12' | '04.13' | '04.14' | '04.15' | '04.16' | '04.17' | '04.18' | '04.19' | '04.20' | '04.21' | '04.22' | '04.23' | '05.01' | '05.02' | '05.03' | '05.04' | '05.05' | '05.06' | '05.07' | '05.08' | '05.09' | '06.01' | '06.02' | '06.03' | '06.04' | '06.05' | '06.06' | '07.01' | '07.02' | '07.03' | '07.04' | '07.05' | '07.06' | '07.07' | '07.08' | '07.09' | '07.10' | '07.11' | '07.12' | '07.13' | '07.16' | '07.17' | '07.18' | '07.19' | '07.20' | '07.21' | '07.22' | '08.01' | '08.02' | '09.01' | '09.02' | '09.03' | '10.01' | '10.02' | '10.03' | '10.04' | '10.05' | '10.06' | '10.07' | '10.08' | '10.09' | '10.10' | '11.01' | '11.02' | '11.03' | '11.04' | '12.01' | '12.02' | '12.03' | '12.04' | '12.05' | '12.06' | '12.07' | '12.08' | '12.09' | '12.10' | '12.11' | '12.12' | '12.13' | '12.14' | '12.15' | '12.16' | '12.17' | '13.02' | '13.03' | '13.04' | '13.05' | '14.01' | '14.02' | '14.03' | '14.04' | '14.05' | '14.06' | '14.07' | '14.08' | '14.09' | '14.10' | '14.11' | '14.12' | '14.13' | '14.14' | '15.01' | '15.02' | '15.03' | '15.04' | '15.05' | '15.06' | '15.07' | '15.08' | '15.09' | '15.10' | '15.11' | '15.12' | '15.13' | '15.14' | '15.15' | '15.16' | '15.17' | '15.18' | '16.01' | '16.02' | '17.01' | '17.02' | '17.03' | '17.04' | '17.05' | '17.06' | '17.08' | '17.09' | '17.10' | '17.11' | '17.12' | '17.13' | '17.14' | '17.15' | '17.16' | '17.17' | '17.18' | '17.19' | '17.20' | '17.21' | '17.22' | '17.23' | '17.24' | '17.25' | '18.01' | '19.01' | '20.01' | '20.02' | '20.03' | '21.01' | '22.01' | '23.01' | '24.01' | '25.01' | '25.02' | '25.03' | '25.04' | '25.05' | '26.01' | '27.01' | '28.01' | '29.01' | '30.01' | '31.01' | '32.01' | '33.01' | '34.01' | '35.01' | '36.01' | '37.01' | '38.01' | '39.01' | '40.01';
+type TNFeInfNFeDetImpostoISSQNIndIncentivo = '1' | '2';
+type TIpiIPITribCST = '00' | '49' | '50' | '99';
+type Torig = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8';
+type TNFeInfNFeDetImpostoICMSICMSSN500CSOSN = '500';
+type TNFeInfNFeDetImpostoICMSICMSSN202CSOSN = '202' | '203';
+type TNFeInfNFeDetImpostoICMSICMSSN201CSOSN = '201';
+type TNFeInfNFeDetImpostoICMSICMS90CST = '90';
+type TNFeInfNFeMotDesICMS = '3' | '9' | '12';
+type TNFeInfNFeDetImpostoICMSICMS70CST = '70';
+type TNFeInfNFeDetImpostoICMSICMS60CST = '60';
+type TNFeInfNFeDetImpostoICMSICMS61CST = '61';
+type TNFeInfNFeDetImpostoICMSICMS51CST = '51';
+type TNFeInfNFeDetImpostoICMSICMSSTCST = '41' | '60';
+type TNFeInfNFeDetImpostoICMSICMS40CST = '40' | '41' | '50';
+type TNFeInfNFeDetImpostoICMSICMS40MotDesICMS = '1' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '10' | '11' | '16' | '90';
+type TNFeInfNFeDetImpostoICMSICMS30CST = '30';
+type TNFeInfNFeDetImpostoICMSICMS30MotDesICMS = '6' | '7' | '9';
+type TNFeInfNFeDetImpostoICMSICMSPartCST = '10' | '90';
+type TNFeInfNFeDetImpostoICMSICMS10CST = '10';
+type TNFeInfNFeDetImpostoICMSICMS00CST = '00';
+type TNFeInfNFeDetProdIndEscala = 'S' | 'N';
+type TNFeInfNFeDetProdDITpViaTransp = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '10' | '11' | '12';
+type TNFeInfNFeDetProdDITpIntermedio = '1' | '2' | '3';
+type TEnderEmiCPais = '1058';
+type TEnderEmiXPais = 'Brasil' | 'BRASIL';
+type TNFeInfNFeEmitCRT = '1' | '2' | '3' | '4';
+type ItemsChoiceType5 = 'balsa' | 'reboque' | 'vagao' | 'veicTransp';
+type TNFeInfNFePagDetPagCardTpIntegra = '1' | '2';
+type TNFeInfNFePagDetPagCardTBand = '01' | '02' | '03' | '04' | '05' | '06' | '07' | '08' | '09' | '99';
+type TNFeInfNFeInfAdicProcRefIndProc = '0' | '1' | '2' | '3' | '9';
+type TNFeInfNFeIdeNFrefRefNFPMod = '01' | '04';
+type TNFeInfNFeIdeNFrefRefNFMod = '01' | '02';
+type TNFeInfNFeIdeNFrefRefECFMod = '2B' | '2C' | '2D';
+type TNFeInfNFeTotalISSQNtotCRegTrib = '1' | '2' | '3' | '4' | '5' | '6';
+type TNFeDoc = 'CNPJ' | 'CPF';
 export interface TConsReciNFe {
     $: {
         versao: string;
@@ -244,6 +244,72 @@ interface TNFeInfNFeDetImposto {
     PISST?: TNFeInfNFeDetImpostoPISST;
     COFINSST?: TNFeInfNFeDetImpostoCOFINSST;
     ICMSUFDest?: TNFeInfNFeDetImpostoICMSUFDest;
+    IS?: TNFeInfNFeDetImpostoIS;
+    IBSCBS?: TNFeInfNFeDetImpostoIBSCBS;
+}
+interface TNFeInfNFeDetImpostoIS {
+    CSTIS: string;
+    cClassTribIS: string;
+    vBCIS: number;
+    pIS: number;
+    pISEspec: number;
+    uTrib: string;
+    qTrib: number;
+    vIS: string;
+}
+interface TNFeInfNFeDetImpostoIBSCBS {
+    CSTIS: string;
+    cClassTribIS: string;
+    gIBSCBS: TNFeInfNFeDetImpostoIBSCBSgIBSCBS;
+}
+interface TNFeInfNFeDetImpostoIBSCBSgIBSCBS {
+    vBC?: number;
+    gIBSUF?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSUF;
+    gIBSMun?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSMun;
+    gCBS?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgCBS;
+    gTribRegular?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgTribRegular;
+}
+interface TNFeInfNFeDetImpostoIBSCBSgIBSCBSgTribRegular {
+    CSTReg: string;
+    cClassTribReg: string;
+    pAliqEfetRegIBSUF: number;
+    vTribRegIBSUF: number;
+    pAliqEfetRegIBSMun: number;
+    vTribRegIBSMun: number;
+    pAliqEfetRegCBS: number;
+    vTribRegCBS: number;
+}
+interface TNFeInfNFeDetImpostoIBSCBSgIBSCBSgCBS {
+    pCBS?: number;
+    gDif?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgDif;
+    gDevTrib?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgDevTrib;
+    gRed?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgRed;
+    vCBS?: number;
+}
+interface TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSMun {
+    pIBSMun?: number;
+    gDif?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgDif;
+    gDevTrib?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgDevTrib;
+    gRed?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgRed;
+    vIBSMun?: number;
+}
+interface TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSUF {
+    pIBSUF?: number;
+    gDif?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgDif;
+    gDevTrib?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgDevTrib;
+    gRed?: TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgRed;
+    vIBSUF?: number;
+}
+interface TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgRed {
+    pRedAliq: number;
+    pAliqEfet: number;
+}
+interface TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgDevTrib {
+    vDevTrib: number;
+}
+interface TNFeInfNFeDetImpostoIBSCBSgIBSCBSgIBSgDif {
+    pDif: number;
+    vDif: number;
 }
 interface TNFeInfNFeDetImpostoICMSUFDest {
     vBCUFDest: number;
@@ -300,7 +366,7 @@ interface TNFeInfNFeDetImpostoIPI {
     cSelo: string;
     qSelo: string;
     IPINT?: string;
-    IPITRIB?: TIpiIPITrib;
+    IPITrib?: TIpiIPITrib;
 }
 interface TIpiIPITrib {
     CST: TIpiIPITribCST;
@@ -347,17 +413,17 @@ interface TNFeInfNFeDetImpostoICMS {
 }
 interface TNFeInfNFeDetImpostoICMSICMSSN102 {
     orig: Torig;
-    CSOSN: "102" | "103" | "300" | "400";
+    CSOSN: '102' | '103' | '300' | '400';
 }
 interface TNFeInfNFeDetImpostoICMSICMSSN101 {
     orig: Torig;
-    CSOSN: "101";
+    CSOSN: '101';
     pCredSN?: string;
     vCredICMSSN?: string;
 }
 interface TNFeInfNFeDetImpostoICMSICMSSN900 {
     orig: Torig;
-    CSOSN: "900";
+    CSOSN: '900';
     modBC: TNFeModBC;
     vBC?: string;
     pRedBC?: string;
@@ -626,7 +692,7 @@ interface TNFeInfNFeDetProd {
     vSeg: string;
     vDesc: string;
     vOutro: string;
-    indTot: "0" | "1";
+    indTot: '0' | '1';
     di?: TNFeInfNFeDetProdDI[];
     det?: TNFeInfNFeDetProdDet[];
     xPed?: string;
@@ -703,11 +769,29 @@ export interface TNFeInfNFeDest {
     idEstrangeiro?: string;
     xNome: string;
     enderDest?: TEnderEmi;
-    indIEDest: "1" | "2" | "9";
+    indIEDest: '1' | '2' | '9';
     IE?: string;
     ISUF?: string;
     IM?: string;
     email?: string;
+}
+export interface TNFeInfNFeEntregaRetirada {
+    CNPJ?: string;
+    CPF?: string;
+    xNome_Opc?: string;
+    xLgr: string;
+    nro: string;
+    xCpl?: string;
+    xBairro: string;
+    cMun: string;
+    xMun: string;
+    UF: TUfEmi;
+    CEP_Opc?: string;
+    cPais_Opc?: string;
+    xPais_Opc?: string;
+    fone_Opc?: string;
+    email_Opc?: string;
+    IE_Opc?: string;
 }
 interface TEnderEmi {
     xLgr: string;
@@ -737,7 +821,7 @@ export interface TNFeInfNFeEmit {
     CRT: TNFeInfNFeEmitCRT;
 }
 export interface TNFeInfNFeTransp {
-    modFrete: "0" | "1" | "2" | "3" | "4" | "9";
+    modFrete: '0' | '1' | '2' | '3' | '4' | '9';
     transporta?: TNFeInfNFeTranspTransporta;
     retTransp?: TNFeInfNFeTranspRetTransp;
     veicTransp?: TNFeInfNFeTranspVeicTransp;
@@ -745,7 +829,7 @@ export interface TNFeInfNFeTransp {
     itemsElementName?: ItemsChoiceType5[];
     vol?: TNFeInfNFeTranspVol[];
 }
-interface TNFeInfNFeTranspVol {
+export interface TNFeInfNFeTranspVol {
     qVol: string;
     esp: string;
     marca?: string;
@@ -789,9 +873,9 @@ export interface TNFeInfNFePag {
     vTroco?: string;
 }
 export interface TNFeInfNFePagDetPag {
-    indPag: "0" | "1";
+    indPag: '0' | '1';
     indPagSpecified?: boolean;
-    tPag: "01" | "02" | "03" | "04" | "05" | "10" | "11" | "12" | "13" | "14" | "15" | "16" | "17" | "18" | "19" | "90" | "99";
+    tPag: '01' | '02' | '03' | '04' | '05' | '10' | '11' | '12' | '13' | '14' | '15' | '16' | '17' | '18' | '19' | '90' | '99';
     vPag: string;
     card?: TNFeInfNFePagDetPagCard;
     xPag?: string;
@@ -817,6 +901,47 @@ export interface TNFeInfNFeInfAdicObs {
 export interface TNFeInfNFeInfAdicProcRef {
     nProc: string;
     indProc: TNFeInfNFeInfAdicProcRefIndProc;
+}
+export interface TNFeInfNFeTotalIBSCBSTot {
+    vBCIBSCBS: number;
+    gIBS: TNFeInfNFeTotalIBSCBSTotgIBS;
+    gCBS: TNFeInfNFeTotalIBSCBSTotgCBS;
+    gMono: TNFeInfNFeTotalIBSCBSTotgMono;
+}
+export interface TNFeInfNFeTotalIBSCBSTotgIBS {
+    gIBSUF: TNFeInfNFeTotalIBSCBSTotgIBSgIBSUF;
+    gIBSMun: TNFeInfNFeTotalIBSCBSTotgIBSgIBSMun;
+    vIBS: number;
+    vCredPres: number;
+    vCredPresCondSus: number;
+}
+export interface TNFeInfNFeTotalIBSCBSTotgIBSgIBSMun {
+    vDif: number;
+    vDevTrib: number;
+    vIBSMun: number;
+}
+export interface TNFeInfNFeTotalIBSCBSTotgIBSgIBSUF {
+    vDif: number;
+    vDevTrib: number;
+    vIBSUF: number;
+}
+export interface TNFeInfNFeTotalIBSCBSTotgCBS {
+    vDif: number;
+    vDevTrib: number;
+    vCBS: number;
+    vCredPres: number;
+    vCredPresCondSus: number;
+}
+export interface TNFeInfNFeTotalIBSCBSTotgMono {
+    vIBSMono: number;
+    vCBSMono: number;
+    vIBSMonoReten: number;
+    vCBSMonoReten: number;
+    vIBSMonoRet: number;
+    vCBSMonoRet: number;
+}
+export interface TNFeInfNFeTotalISTot {
+    vIS: number;
 }
 export interface TNFeInfNFeTotalICMSTot {
     vBC: string;
@@ -854,17 +979,17 @@ export interface IdeInput {
     natOp: string;
     serie: string;
     nNF: string;
-    dhEmi: string;
+    dhEmi?: string;
     dhSaiEnt?: string;
-    tpNF: "0" | "1";
-    idDest: "1" | "2" | "3";
+    tpNF: '0' | '1';
+    idDest: '1' | '2' | '3';
     cMunFG: string;
-    tpImp: "1" | "2" | "3" | "4" | "5";
-    tpEmis: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "9";
-    finNFe: "1" | "2" | "3" | "4";
-    indFinal: "0" | "1";
-    indPres: "1" | "2" | "3" | "4" | "5" | "9";
-    procEmi: "0" | "1" | "2" | "3";
+    tpImp: '1' | '2' | '3' | '4' | '5';
+    tpEmis: '1' | '2' | '3' | '4' | '5' | '6' | '7' | '9';
+    finNFe: '1' | '2' | '3' | '4';
+    indFinal: '0' | '1';
+    indPres: '0' | '1' | '2' | '3' | '4' | '5' | '9';
+    procEmi: '0' | '1' | '2' | '3';
     verProc: string;
     dhCont?: string;
     xJust?: string;
@@ -910,17 +1035,17 @@ export interface TNFeInfNFeIde {
     nNF: string;
     dhEmi: string;
     dhSaiEnt?: string;
-    tpNF: "0" | "1";
-    idDest: "1" | "2" | "3";
+    tpNF: '0' | '1';
+    idDest: '1' | '2' | '3';
     cMunFG: string;
-    tpImp: "1" | "2" | "3" | "4" | "5";
-    tpEmis: "1" | "2" | "3" | "4" | "5" | "6" | "7" | "9";
+    tpImp: '1' | '2' | '3' | '4' | '5';
+    tpEmis: '1' | '2' | '3' | '4' | '5' | '6' | '7' | '9';
     cDV: string;
     tpAmb: TAmb;
-    finNFe: "1" | "2" | "3" | "4";
-    indFinal: "0" | "1";
-    indPres: "1" | "2" | "3" | "4" | "5" | "9";
-    procEmi: "0" | "1" | "2" | "3";
+    finNFe: '1' | '2' | '3' | '4';
+    indFinal: '0' | '1';
+    indPres: '0' | '1' | '2' | '3' | '4' | '5' | '9';
+    procEmi: '0' | '1' | '2' | '3';
     verProc: string;
     dhCont?: string;
     xJust?: string;
@@ -931,6 +1056,8 @@ export interface TNFeInfNFeTotal {
     ICMSTot: TNFeInfNFeTotalICMSTot;
     ISSQNtot?: TNFeInfNFeTotalISSQNtot;
     retTrib?: TNFeInfNFeTotalRetTrib;
+    ISTot?: TNFeInfNFeTotalISTot;
+    IBSCBSTot?: TNFeInfNFeTotalIBSCBSTot;
 }
 interface TNFeInfNFeTotalRetTrib {
     vRetPIS: string;
@@ -958,7 +1085,7 @@ interface TNFeInfNFeTotalISSQNtot {
 }
 export interface TNFeInfNFeCobr {
     fat: TNFeInfNFeCobrFat;
-    dup: TNFeInfNFeCobrDup[];
+    dup?: TNFeInfNFeCobrDup[];
 }
 export interface TNFeInfNFeCobrDup {
     nDup: string;
@@ -981,8 +1108,8 @@ export interface TNFeInfNFe {
     emit: TNFeInfNFeEmit;
     avulsa?: TNFeInfNFeAvulsa;
     dest?: TNFeInfNFeDest;
-    retirada?: TLocal;
-    entrega?: TLocal;
+    retirada?: TNFeInfNFeEntregaRetirada;
+    entrega?: TNFeInfNFeEntregaRetirada;
     autXML?: TNFeInfNFeAutXML[];
     det: TNFeInfNFeDet[];
     total: TNFeInfNFeTotal;
@@ -1036,24 +1163,6 @@ interface TNFeInfNFea {
 interface TNFeInfNFeAutXML {
     item: string;
     itemElementName: TNFeDoc;
-}
-interface TLocal {
-    item: string;
-    itemElementName: TNFeDoc;
-    xNome: string;
-    xLgr: string;
-    nro: string;
-    xCpl: string;
-    xBairro: string;
-    cMun: string;
-    xMun: string;
-    uf: TUfEmi;
-    cEP: string;
-    cPais: string;
-    xPais: string;
-    fone: string;
-    email: string;
-    ie: string;
 }
 interface TNFeInfNFeAvulsa {
     cNPJ: string;
